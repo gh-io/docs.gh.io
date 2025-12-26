@@ -1,0 +1,39 @@
+{
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+  },
+  "workbench.colorCustomizations": {
+    "editor.background": "#000088",
+    "editor.selectionBackground": "#00FF00",
+    "editor.foreground": "#880000"
+  },
+"[javascript][typescript]": {
+  "editor.maxTokenizationLineLength": 2500
+},
+"[autoscript]": {
+"files. autoSave": "afterDelay",
+"diffEditor.renderSideBySide": false,
+"breadcrumbs.enabled": false,
+"editor minimap.enabled": false,
+"[typescript]":
+"diffEditor.ignoreTrimwhitespace":
+"diffEditor.maxComputationTime":
+"diffEditor.renderIndicators":
+"diffEditor.renderSideBySide":
+"editor.acceptSuggestionOnCommitCharacter":
+"editor.acceptSuggestionOnEnter":
+"editor.accessibilityPageSize":
+"editor.accessibilitySupport":
+"editor.autoClosingBrackets":
+"editor.autoClosingOvertype":
+"editor.autoClosingQuotes":
+"editor.autoIndent":
+}
+}
