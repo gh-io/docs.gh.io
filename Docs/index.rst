@@ -1,5 +1,5 @@
 ---
-name: https://docs.gh.io
+name: # https://docs.gh.io
 title: # [essentials](https://acme-83ff5188.mintlify.app)
 layouts: # [ai-tools](https://web4-6d3660.webflow.io/docs)
 description: 
@@ -1225,3 +1225,5 @@ Install our GitHub app from your [dashboard](https://dashboard.mintlify.com/sett
 
 ### Resources
 - [Mintlify documentation](https://mintlify.com/docs)
+
+---
