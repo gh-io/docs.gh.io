@@ -1,5 +1,5 @@
 ---
-name: https://docs.gh.io
+name: site
 title: # [essentials](https://acme-83ff5188.mintlify.app)
 layouts: # [ai-tools](https://web4-6d3660.webflow.io/docs)
 description: 
@@ -29,16 +29,16 @@ description:
 ---
 ## Optional
 
-:[Documentation](https://mintlify.com/docs)
 
- :[Blog](https://mintlify.com/blog)
+---
+>
+>tittle: [Documentation](https://mintlify.com/docs)
+contents: [Blog](https://mintlify.com/blog)
+layouts: site
+>Description: Markup Syntax and Parser Component
 
-    
-    ---
-    tittle: docs.
-    name: gh.io
-    contents: reStructuredText
-    --- 
+
+--- 
 
     ====================
     |reStructuredText|
@@ -46,12 +46,11 @@ description:
  
 	
 
--------------------------------------------------
-> Markup Syntax and Parser Component of Docutils_
--------------------------------------------------
 
 
-reStructuredText is an easy-to-read, what-you-see-is-what-you-get
+ ## reStructuredText
+
+ is an easy-to-read, what-you-see-is-what-you-get
 plaintext markup syntax and parser system.  It is useful for in-line
 program documentation (such as Python docstrings), for quickly
 creating simple web pages, and for standalone documents.
