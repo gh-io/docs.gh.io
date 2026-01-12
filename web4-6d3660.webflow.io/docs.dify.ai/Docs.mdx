@@ -1,0 +1,211 @@
+# Dify Docs
+
+## Docs
+
+- [Create Annotation](https://docs.dify.ai/api-reference/annotations/create-annotation.md)
+- [Delete Annotation](https://docs.dify.ai/api-reference/annotations/delete-annotation.md)
+- [Get Annotation List](https://docs.dify.ai/api-reference/annotations/get-annotation-list.md)
+- [Initial Annotation Reply Settings](https://docs.dify.ai/api-reference/annotations/initial-annotation-reply-settings.md)
+- [Query Initial Annotation Reply Settings Task Status](https://docs.dify.ai/api-reference/annotations/query-initial-annotation-reply-settings-task-status.md)
+- [Update Annotation](https://docs.dify.ai/api-reference/annotations/update-annotation.md)
+- [Get Application Basic Information](https://docs.dify.ai/api-reference/application/get-application-basic-information.md): Used to get basic information about this application.
+- [Get Application Meta Information](https://docs.dify.ai/api-reference/application/get-application-meta-information.md)
+- [Get Application Parameters Information](https://docs.dify.ai/api-reference/application/get-application-parameters-information.md): Used at the start of entering the page to obtain information such as features, input parameter names, types, and default values.
+- [Get Application WebApp Settings](https://docs.dify.ai/api-reference/application/get-application-webapp-settings.md): Used to get the WebApp settings of the application.
+- [Next Suggested Questions](https://docs.dify.ai/api-reference/chat/next-suggested-questions.md): Get next questions suggestions for the current message.
+- [Send Chat Message](https://docs.dify.ai/api-reference/chat/send-chat-message.md): Send a request to the chat application.
+- [Stop Chat Message Generation](https://docs.dify.ai/api-reference/chat/stop-chat-message-generation.md): Stops a chat message generation task. Only supported in streaming mode.
+- [Next Suggested Questions](https://docs.dify.ai/api-reference/chatflow/next-suggested-questions.md): Get next questions suggestions for the current message.
+- [Send Chat Message](https://docs.dify.ai/api-reference/chatflow/send-chat-message.md): Send a request to the advanced chat application, supporting various file types and workflow events.
+- [Stop Advanced Chat Message Generation](https://docs.dify.ai/api-reference/chatflow/stop-advanced-chat-message-generation.md): Stops an advanced chat message generation task. Only supported in streaming mode.
+- [Add Chunks to a Document](https://docs.dify.ai/api-reference/chunks/add-chunks-to-a-document.md): Adds one or more new chunks (segments) to a specific document. This is useful for manually adding curated content.
+- [Create Child Chunk](https://docs.dify.ai/api-reference/chunks/create-child-chunk.md): Creates a new child chunk under a parent segment in a document using the hierarchical mode.
+- [Delete a Chunk in a Document](https://docs.dify.ai/api-reference/chunks/delete-a-chunk-in-a-document.md): Deletes a specific chunk (segment) from a document.
+- [Delete Child Chunk](https://docs.dify.ai/api-reference/chunks/delete-child-chunk.md): Deletes a specific child chunk.
+- [Get a Chunk Details in a Document](https://docs.dify.ai/api-reference/chunks/get-a-chunk-details-in-a-document.md): Retrieves the details of a specific chunk (segment) within a document.
+- [Get Child Chunks](https://docs.dify.ai/api-reference/chunks/get-child-chunks.md): Retrieves a list of child chunks for a specific parent segment.
+- [Get Chunks from a Document](https://docs.dify.ai/api-reference/chunks/get-chunks-from-a-document.md): Retrieves a paginated list of chunks (segments) from a specific document.
+- [Update a Chunk in a Document](https://docs.dify.ai/api-reference/chunks/update-a-chunk-in-a-document.md): Updates the content, keywords, or status of a specific chunk (segment).
+- [Update Child Chunk](https://docs.dify.ai/api-reference/chunks/update-child-chunk.md): Updates the content of a specific child chunk.
+- [Create Completion Message](https://docs.dify.ai/api-reference/completion/create-completion-message.md): Send a request to the text generation application.
+- [Stop Generate](https://docs.dify.ai/api-reference/completion/stop-generate.md): Stops a generation task. Only supported in streaming mode.
+- [Conversation Rename](https://docs.dify.ai/api-reference/conversations/conversation-rename.md): Rename the session.
+- [Delete Conversation](https://docs.dify.ai/api-reference/conversations/delete-conversation.md): Delete a conversation.
+- [Get Conversation History Messages](https://docs.dify.ai/api-reference/conversations/get-conversation-history-messages.md): Returns historical chat records in a scrolling load format.
+- [Get Conversation Variables](https://docs.dify.ai/api-reference/conversations/get-conversation-variables.md): Retrieve variables from a specific conversation.
+- [Get Conversations](https://docs.dify.ai/api-reference/conversations/get-conversations.md): Retrieve the conversation list for the current user.
+- [Create an Empty Knowledge Base](https://docs.dify.ai/api-reference/datasets/create-an-empty-knowledge-base.md): Creates a new, empty knowledge base (dataset) with specified configurations.
+- [Delete a Knowledge Base](https://docs.dify.ai/api-reference/datasets/delete-a-knowledge-base.md): Deletes a knowledge base and all its associated documents and data.
+- [Get Knowledge Base Details](https://docs.dify.ai/api-reference/datasets/get-knowledge-base-details.md): Fetches the detailed information of a specific knowledge base by its ID.
+- [Get Knowledge Base List](https://docs.dify.ai/api-reference/datasets/get-knowledge-base-list.md): Retrieves a list of knowledge bases, with options for pagination and filtering.
+- [Retrieve Chunks from a Knowledge Base / Test Retrieval](https://docs.dify.ai/api-reference/datasets/retrieve-chunks-from-a-knowledge-base-test-retrieval.md): Performs a search query against a knowledge base to retrieve the most relevant chunks (segments). This endpoint can be used for both production retrieval and test retrieval.
+- [Update Knowledge Base](https://docs.dify.ai/api-reference/datasets/update-knowledge-base.md): Updates the settings of a specific knowledge base.
+- [Create a Document from a File](https://docs.dify.ai/api-reference/documents/create-a-document-from-a-file.md): Creates a new document within an existing knowledge base by uploading a file.
+- [Create a Document from Text](https://docs.dify.ai/api-reference/documents/create-a-document-from-text.md): Creates a new document within an existing knowledge base directly from text content.
+- [Delete a Document](https://docs.dify.ai/api-reference/documents/delete-a-document.md): Deletes a specific document from a knowledge base.
+- [Get Document Detail](https://docs.dify.ai/api-reference/documents/get-document-detail.md): Retrieves detailed information about a single document, including its processing rules and status.
+- [Get Document Embedding Status (Progress)](https://docs.dify.ai/api-reference/documents/get-document-embedding-status-progress.md): Retrieves the indexing status for a batch of documents, showing the progress of embedding and processing.
+- [Get the Document List of a Knowledge Base](https://docs.dify.ai/api-reference/documents/get-the-document-list-of-a-knowledge-base.md): Retrieves a paginated list of all documents within a specified knowledge base.
+- [Update a Document with a File](https://docs.dify.ai/api-reference/documents/update-a-document-with-a-file.md): Updates an existing document by uploading a new file, replacing its content.
+- [Update a Document with Text](https://docs.dify.ai/api-reference/documents/update-a-document-with-text.md): Updates an existing document's content or settings using text.
+- [Update Document Status](https://docs.dify.ai/api-reference/documents/update-document-status.md): Performs a batch action to update the status of one or more documents (e.g., enable, disable, archive).
+- [Get feedbacks of application](https://docs.dify.ai/api-reference/feedback/get-feedbacks-of-application.md): Get application's feedbacks.
+- [Message Feedback](https://docs.dify.ai/api-reference/feedback/message-feedback.md): End-users can provide feedback messages, facilitating application developers to optimize expected outputs.
+- [File Preview](https://docs.dify.ai/api-reference/files/file-preview.md): Preview or download uploaded files. This endpoint allows you to access files that have been previously uploaded via the File Upload API. Files can only be accessed if they belong to messages within the requesting application.
+- [File Upload](https://docs.dify.ai/api-reference/files/file-upload.md): Upload a file (currently only images are supported) for use when sending messages, enabling multimodal understanding of images and text. Supports png, jpg, jpeg, webp, gif formats. Uploaded files are for use by the current end-user only.
+- [File Upload for Workflow](https://docs.dify.ai/api-reference/files/file-upload-for-workflow.md): Upload a file for use in workflows. Supports any formats supported by your workflow. Uploaded files are for the current end-user only.
+- [Bind Dataset to Knowledge Base Type Tag](https://docs.dify.ai/api-reference/metadata-&-tags/bind-dataset-to-knowledge-base-type-tag.md): Binds one or more tags to a specific knowledge base.
+- [Create New Knowledge Base Type Tag](https://docs.dify.ai/api-reference/metadata-&-tags/create-new-knowledge-base-type-tag.md): Creates a new tag that can be used to categorize knowledge bases.
+- [Delete Knowledge Base Type Tag](https://docs.dify.ai/api-reference/metadata-&-tags/delete-knowledge-base-type-tag.md): Deletes a tag. The tag must not be bound to any knowledge bases.
+- [Get Knowledge Base Type Tags](https://docs.dify.ai/api-reference/metadata-&-tags/get-knowledge-base-type-tags.md): Retrieves a list of all available knowledge base tags.
+- [Modify Knowledge Base Type Tag Name](https://docs.dify.ai/api-reference/metadata-&-tags/modify-knowledge-base-type-tag-name.md): Updates the name of an existing tag.
+- [Query Tags Bound to a Dataset](https://docs.dify.ai/api-reference/metadata-&-tags/query-tags-bound-to-a-dataset.md): Retrieves all tags that are currently bound to a specific dataset.
+- [Unbind Dataset and Knowledge Base Type Tag](https://docs.dify.ai/api-reference/metadata-&-tags/unbind-dataset-and-knowledge-base-type-tag.md): Unbinds a specific tag from a knowledge base.
+- [Get available embedding models](https://docs.dify.ai/api-reference/models/get-available-embedding-models.md): Fetches a list of all available text embedding models that can be used for creating and querying knowledge bases.
+- [Speech to Text](https://docs.dify.ai/api-reference/tts/speech-to-text.md): Convert audio file to text. Supported formats: mp3, mp4, mpeg, mpga, m4a, wav, webm. File size limit: 15MB.
+- [Text to Audio](https://docs.dify.ai/api-reference/tts/text-to-audio.md): Convert text to speech.
+- [Execute Workflow](https://docs.dify.ai/api-reference/workflow-execution/execute-workflow.md): Execute workflow. Cannot be executed without a published workflow.
+- [Get Workflow Logs](https://docs.dify.ai/api-reference/workflow-execution/get-workflow-logs.md): Returns workflow logs, with the first page returning the latest `{limit}` messages, i.e., in reverse order.
+- [Get Workflow Run Detail](https://docs.dify.ai/api-reference/workflow-execution/get-workflow-run-detail.md): Retrieve the current execution results of a workflow task based on the workflow execution ID.
+- [Stop Workflow Task Generation](https://docs.dify.ai/api-reference/workflow-execution/stop-workflow-task-generation.md): Stops a workflow task generation. Only supported in streaming mode.
+- [Agent Strategy Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/agent-strategy-plugin.md)
+- [Dify Plugin Development Cheatsheet](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/cheatsheet.md): A comprehensive reference guide for Dify plugin development, including environment requirements, installation methods, development process, plugin categories and types, common code snippets, and solutions to common issues. Suitable for developers to quickly consult and reference.
+- [Model Provider Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/creating-new-model-provider.md): This comprehensive guide provides detailed instructions on creating model provider plugins, covering project initialization, directory structure organization, model configuration methods, writing provider code, and implementing model integration with detailed examples of core API implementations.
+- [Data Source Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/datasource-plugin.md)
+- [Develop A Slack Bot Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/develop-a-slack-bot-plugin.md): This guide provides a complete walkthrough for developing a Slack Bot plugin, covering project initialization, configuration form editing, feature implementation, debugging, endpoint setup, verification, and packaging. You'll need the Dify plugin scaffolding tool and a pre-created Slack App to build an AI-powered chatbot on Slack.
+- [10-Minute Guide to Building Dify Plugins](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/develop-flomo-plugin.md): Learn how to build a functional Dify plugin that connects with Flomo note-taking service in just 10 minutes
+- [Building a Markdown Exporter Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/develop-md-exporter.md): Learn how to create a plugin that exports conversations to different document formats
+- [Build Tool Plugins for Multimodal Data Processing in Knowledge Pipelines](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/develop-multimodal-data-processing-tool.md)
+- [Neko Cat Endpoint](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/endpoint.md): Authors Yeuoly, Allen. This document details the structure and implementation of Endpoints in Dify plugins, using the Neko Cat project as an example. It covers defining Endpoint groups, configuring interfaces, implementing the _invoke method, and handling requests and responses. The document explains the meaning and usage of various YAML configuration fields.
+- [Add OAuth Support to Your Tool Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/tool-oauth.md)
+- [Tool Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/tool-plugin.md): This document provides detailed instructions on how to develop tool plugins for Dify, using Google Search as an example to demonstrate a complete tool plugin development process. The content includes plugin initialization, template selection, tool provider configuration file definition, adding third-party service credentials, tool functionality code implementation, debugging, and packaging for release.
+- [Trigger Plugin](https://docs.dify.ai/en/develop-plugin/dev-guides-and-walkthroughs/trigger-plugin.md)
+- [Bundle Plugin Package](https://docs.dify.ai/en/develop-plugin/features-and-specs/advanced-development/bundle.md): This document introduces the concept and development method of Bundle plugin packages. Bundle plugin packages can aggregate multiple plugins together, supporting three types (Marketplace, GitHub, and Package). The document details the entire process of creating a Bundle project, adding different types of dependencies, and packaging the Bundle project.
+- [Integrating Custom Models](https://docs.dify.ai/en/develop-plugin/features-and-specs/advanced-development/customizable-model.md): This document details how to integrate custom models into Dify, using the Xinference model as an example. It covers the complete process, including creating model provider files, writing code based on model type, implementing model invocation logic, handling exceptions, debugging, and publishing. It specifically details the implementation of core methods like LLM invocation, token calculation, credential validation, and parameter generation.
+- [Reverse Invocation of Dify Services](https://docs.dify.ai/en/develop-plugin/features-and-specs/advanced-development/reverse-invocation.md): This document briefly introduces the reverse invocation capability of Dify plugins, meaning plugins can call specified services within the main Dify platform. It lists four types of modules that can be invoked, App (access App data), Model (call model capabilities within the platform), Tool (call other tool plugins within the platform), and Node (call nodes within a Chatflow/Workflow application).
+- [App](https://docs.dify.ai/en/develop-plugin/features-and-specs/advanced-development/reverse-invocation-app.md): This document details how plugins can reverse invoke App services within the Dify platform. It covers three types of interfaces Chat interface (for Chatbot/Agent/Chatflow applications), Workflow interface, and Completion interface, providing entry points, invocation specifications, and practical code examples for each.
+- [Reverse Invocation Model](https://docs.dify.ai/en/develop-plugin/features-and-specs/advanced-development/reverse-invocation-model.md): This document details how plugins can reverse invoke model services within the Dify platform. It covers specific methods for reverse invoking LLM, Summary, TextEmbedding, Rerank, TTS, Speech2Text, and Moderation models. Each model invocation includes its entry point, interface parameter descriptions, practical usage code examples, and best practice recommendations for invoking models.
+- [Node](https://docs.dify.ai/en/develop-plugin/features-and-specs/advanced-development/reverse-invocation-node.md): This document describes how plugins can reverse invoke the functionality of Chatflow/Workflow application nodes within the Dify platform. It primarily covers the invocation methods for two specific nodes, ParameterExtractor and QuestionClassifier. The document details the entry points, interface parameters, and example code for invoking these two nodes.
+- [Tool](https://docs.dify.ai/en/develop-plugin/features-and-specs/advanced-development/reverse-invocation-tool.md): This document details how plugins can reverse invoke Tool services within the Dify platform. It covers three types of tool invocation methods calling installed tools (Built-in Tool), calling Workflow as Tool, and calling custom tools (Custom Tool). Each method includes corresponding entry points and interface parameter descriptions.
+- [General Specs](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/general-specifications.md): This article will briefly introduce common structures in plugin development. During development, it is strongly recommended to read this alongside [Basic Concepts of Plugin Development](/en/develop-plugin/getting-started/getting-started-dify-plugin) and the [Developer Cheatsheet](/en/develop-plugin/getting-started/cli) for a better understanding of the overall architecture.
+- [Model Specs](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/model-designing-rules.md): This document defines in detail the core concepts and structures for Dify model plugin development, including model providers (Provider), AI model entities (AIModelEntity), model types (ModelType), configuration methods (ConfigurateMethod), model features (ModelFeature), parameter rules (ParameterRule), price configuration (PriceConfig), and detailed data structure specifications for various credential modes.
+- [Model API Interface](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/model-schema.md): Comprehensive guide to the Dify model plugin API including implementation requirements for LLM, TextEmbedding, Rerank, Speech2text, and Text2speech models, with detailed specifications for all related data structures.
+- [Multilingual README](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/multilingual-readme.md): This article introduces the file specifications for Dify plugins' multilingual READMEs and their display rule in Dify Marketplace.
+- [Persistent Storage](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/persistent-storage-kv.md): Learn how to implement persistent storage in your Dify plugins using the built-in key-value database to maintain state across interactions.
+- [Manifest](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/plugin-info-by-manifest.md)
+- [Plugin Logging](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/plugin-logging.md)
+- [Plugin Debugging](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/remote-debug-a-plugin.md): This document introduces how to use Dify's remote debugging feature to test plugins. It provides detailed instructions on obtaining debugging information, configuring environment variable files, starting plugin remote debugging, and verifying plugin installation status. Through this method, developers can test plugins in the Dify environment in real-time while developing locally.
+- [Tool Return](https://docs.dify.ai/en/develop-plugin/features-and-specs/plugin-types/tool.md): This document provides a detailed introduction to the data structure and usage of Tools in Dify plugins. It covers how to return different types of messages (image URLs, links, text, files, JSON), how to create variable and streaming variable messages, and how to define tool output variable schemas for reference in workflows.
+- [CLI](https://docs.dify.ai/en/develop-plugin/getting-started/cli.md): Command Line Interface for Dify Plugin Development
+- [Dify Plugin](https://docs.dify.ai/en/develop-plugin/getting-started/getting-started-dify-plugin.md)
+- [Frequently Asked Questions](https://docs.dify.ai/en/develop-plugin/publishing/faq/faq.md): This document answers common questions about Dify plugin development and installation, including how to resolve plugin upload failures (by modifying the author field) and how to handle verification exceptions during plugin installation (by setting the FORCE_VERIFYING_SIGNATURE environment variable).
+- [Automatically Publish Plugins via PR](https://docs.dify.ai/en/develop-plugin/publishing/marketplace-listing/plugin-auto-publish-pr.md): This document describes how to automate the release process of Dify plugins using GitHub Actions, including configuration steps, parameter descriptions, and usage methods, helping plugin developers streamline the release process without manual intervention.
+- [Package as Local File and Share](https://docs.dify.ai/en/develop-plugin/publishing/marketplace-listing/release-by-file.md): This document provides detailed steps on how to package a Dify plugin project as a local file and share it with others. It covers the preparation work before packaging a plugin, using the Dify plugin development tool to execute packaging commands, how to install the generated .difypkg file, and how to share plugin files with other users.
+- [Publishing Plugins](https://docs.dify.ai/en/develop-plugin/publishing/marketplace-listing/release-overview.md): This document introduces three ways to publish Dify plugins - official Marketplace, open-source GitHub repository, and local plugin file package. It details the characteristics, publishing process, and applicable scenarios for each method, and provides specific publishing recommendations to meet the needs of different developers.
+- [Publish to Dify Marketplace](https://docs.dify.ai/en/develop-plugin/publishing/marketplace-listing/release-to-dify-marketplace.md): This guide provides detailed instructions on the complete process of publishing plugins to the Dify Marketplace, including submitting PRs, the review process, post-release maintenance, and other key steps and considerations.
+- [Publish to Individual GitHub Repository](https://docs.dify.ai/en/develop-plugin/publishing/marketplace-listing/release-to-individual-github-repo.md): This document provides detailed instructions on how to publish Dify plugins to a personal GitHub repository, including preparation work, initializing a local plugin repository, connecting to a remote repository, uploading plugin files, packaging plugin code, and the complete process of installing plugins via GitHub. This method allows developers to fully manage their own plugin code and updates.
+- [Plugin Development Guidelines](https://docs.dify.ai/en/develop-plugin/publishing/standards/contributor-covenant-code-of-conduct.md): To ensure the quality of all plugins in the Dify Marketplace and provide a consistent, high-quality experience for Dify Marketplace users, you must adhere to all requirements outlined in these Plugin Development Guidelines when submitting a plugin for review. By submitting a plugin, **you acknowledge that you have read, understood, and agree to comply with all the following terms**. Following these guidelines will help your plugin get reviewed faster.
+- [Plugin Privacy Policy Guidelines](https://docs.dify.ai/en/develop-plugin/publishing/standards/privacy-protection-guidelines.md): This document describes guidelines for developers on how to write a privacy policy when submitting plugins to the Dify Marketplace. It includes how to identify and list the types of personal data collected (direct identification information, indirect identification information, combined information), how to fill out the plugin privacy policy, how to include the privacy policy statement in the Manifest file, and answers to related common questions.
+- [Signing Plugins for Third-Party Signature Verification](https://docs.dify.ai/en/develop-plugin/publishing/standards/third-party-signature-verification.md): This document describes how to enable and use the third-party signature verification feature in the Dify Community Edition, including key pair generation, plugin signing and verification, and environment configuration steps, enabling administrators to securely install plugins not available on the Dify Marketplace.
+- [Local Source Code Start](https://docs.dify.ai/en/self-host/advanced-deployments/local-source-code.md)
+- [Start Frontend Docker Container Separately](https://docs.dify.ai/en/self-host/advanced-deployments/start-the-frontend-docker-container.md)
+- [Environments](https://docs.dify.ai/en/self-host/configuration/environments.md)
+- [Deploy with aaPanel](https://docs.dify.ai/en/self-host/platform-guides/bt-panel.md)
+- [Dify Premium on AWS](https://docs.dify.ai/en/self-host/platform-guides/dify-premium.md)
+- [Deploy Dify with Docker Compose](https://docs.dify.ai/en/self-host/quick-start/docker-compose.md)
+- [FAQs](https://docs.dify.ai/en/self-host/quick-start/faqs.md)
+- [Common Issues](https://docs.dify.ai/en/self-host/troubleshooting/common-issues.md)
+- [Docker Issues](https://docs.dify.ai/en/self-host/troubleshooting/docker-issues.md)
+- [Third-Party Integrations](https://docs.dify.ai/en/self-host/troubleshooting/integrations.md)
+- [Storage & Migration](https://docs.dify.ai/en/self-host/troubleshooting/storage-and-migration.md)
+- [Weaviate Migration Guide upgrading to Client v4 and Server 1.27+](https://docs.dify.ai/en/self-host/troubleshooting/weaviate-v4-migration.md)
+- [Additional Features](https://docs.dify.ai/en/use-dify/build/additional-features.md)
+- [Go to Anything](https://docs.dify.ai/en/use-dify/build/goto-anything.md)
+- [Using MCP Tools](https://docs.dify.ai/en/use-dify/build/mcp.md)
+- [Flow Logic](https://docs.dify.ai/en/use-dify/build/orchestrate-node.md)
+- [Handling Errors](https://docs.dify.ai/en/use-dify/build/predefined-error-handling-logic.md)
+- [Hotkeys](https://docs.dify.ai/en/use-dify/build/shortcut-key.md)
+- [Version Control](https://docs.dify.ai/en/use-dify/build/version-control.md)
+- [Error Types](https://docs.dify.ai/en/use-dify/debug/error-type.md)
+- [Run History](https://docs.dify.ai/en/use-dify/debug/history-and-logs.md)
+- [Single Node](https://docs.dify.ai/en/use-dify/debug/step-run.md)
+- [Variable Inspector](https://docs.dify.ai/en/use-dify/debug/variable-inspect.md)
+- [Introduction](https://docs.dify.ai/en/use-dify/getting-started/introduction.md)
+- [Key Concepts](https://docs.dify.ai/en/use-dify/getting-started/key-concepts.md): Quick overview of essential Dify concepts 
+- [30-Minute Quick Start](https://docs.dify.ai/en/use-dify/getting-started/quick-start.md): Dive into Dify through an example app
+- [Connect to External Knowledge Base](https://docs.dify.ai/en/use-dify/knowledge/connect-external-knowledge-base.md)
+- [Configure the Chunk Settings](https://docs.dify.ai/en/use-dify/knowledge/create-knowledge/chunking-and-cleaning-text.md)
+- [Upload Local Files](https://docs.dify.ai/en/use-dify/knowledge/create-knowledge/import-text-data/readme.md)
+- [Sync Data from Notion](https://docs.dify.ai/en/use-dify/knowledge/create-knowledge/import-text-data/sync-from-notion.md)
+- [Import Data from Website](https://docs.dify.ai/en/use-dify/knowledge/create-knowledge/import-text-data/sync-from-website.md)
+- [Quick Create Knowledge](https://docs.dify.ai/en/use-dify/knowledge/create-knowledge/introduction.md)
+- [Specify the Index Method and Retrieval Settings](https://docs.dify.ai/en/use-dify/knowledge/create-knowledge/setting-indexing-methods.md)
+- [External Knowledge API](https://docs.dify.ai/en/use-dify/knowledge/external-knowledge-api.md)
+- [Integrate Knowledge within Apps](https://docs.dify.ai/en/use-dify/knowledge/integrate-knowledge-within-application.md)
+- [Authorize Data Source](https://docs.dify.ai/en/use-dify/knowledge/knowledge-pipeline/authorize-data-source.md)
+- [Step 1: Create Knowledge Pipeline](https://docs.dify.ai/en/use-dify/knowledge/knowledge-pipeline/create-knowledge-pipeline.md)
+- [Step 2: Orchestrate Knowledge Pipeline](https://docs.dify.ai/en/use-dify/knowledge/knowledge-pipeline/knowledge-pipeline-orchestration.md)
+- [Step 5: Manage and Use Knowledge Base](https://docs.dify.ai/en/use-dify/knowledge/knowledge-pipeline/manage-knowledge-base.md)
+- [Step 3: Publish Knowledge Pipeline](https://docs.dify.ai/en/use-dify/knowledge/knowledge-pipeline/publish-knowledge-pipeline.md)
+- [Create Knowledge from a Knowledge Pipeline](https://docs.dify.ai/en/use-dify/knowledge/knowledge-pipeline/readme.md)
+- [Step 4: Upload Files](https://docs.dify.ai/en/use-dify/knowledge/knowledge-pipeline/upload-files.md)
+- [Knowledge Request Rate Limit](https://docs.dify.ai/en/use-dify/knowledge/knowledge-request-rate-limit.md)
+- [Manage Knowledge Settings](https://docs.dify.ai/en/use-dify/knowledge/manage-knowledge/introduction.md)
+- [Manage Knowledge via API](https://docs.dify.ai/en/use-dify/knowledge/manage-knowledge/maintain-dataset-via-api.md)
+- [Manage Knowledge Content](https://docs.dify.ai/en/use-dify/knowledge/manage-knowledge/maintain-knowledge-documents.md)
+- [Manage Document Metadata](https://docs.dify.ai/en/use-dify/knowledge/metadata.md)
+- [Knowledge](https://docs.dify.ai/en/use-dify/knowledge/readme.md)
+- [Test Knowledge Retrieval](https://docs.dify.ai/en/use-dify/knowledge/test-retrieval.md)
+- [Dashboard](https://docs.dify.ai/en/use-dify/monitor/analysis.md): Monitor performance, costs, and user engagement through Dify's built-in analytics dashboard
+- [Annotation System](https://docs.dify.ai/en/use-dify/monitor/annotation-reply.md): Build a curated library of high-quality responses to improve consistency and bypass AI generation
+- [Integrate with Alibaba Cloud Monitor](https://docs.dify.ai/en/use-dify/monitor/integrations/integrate-aliyun.md)
+- [Integrate with Arize](https://docs.dify.ai/en/use-dify/monitor/integrations/integrate-arize.md)
+- [Integrate with Langfuse](https://docs.dify.ai/en/use-dify/monitor/integrations/integrate-langfuse.md)
+- [Integrate with LangSmith](https://docs.dify.ai/en/use-dify/monitor/integrations/integrate-langsmith.md)
+- [Integrate with Opik](https://docs.dify.ai/en/use-dify/monitor/integrations/integrate-opik.md)
+- [Integrate with Phoenix](https://docs.dify.ai/en/use-dify/monitor/integrations/integrate-phoenix.md)
+- [Integrate with W&B Weave](https://docs.dify.ai/en/use-dify/monitor/integrations/integrate-weave.md): Dify Cloud | Community version ≥ v1.3.1
+- [Logs](https://docs.dify.ai/en/use-dify/monitor/logs.md): Monitor real-time conversations, debug issues, and collect user feedback
+- [Agent](https://docs.dify.ai/en/use-dify/nodes/agent.md): Give LLMs autonomous control over tools for complex task execution
+- [Answer](https://docs.dify.ai/en/use-dify/nodes/answer.md): Define response content in chatflow applications
+- [Code](https://docs.dify.ai/en/use-dify/nodes/code.md): Execute custom Python or JavaScript for data processing
+- [Document Extractor](https://docs.dify.ai/en/use-dify/nodes/doc-extractor.md): Extract text content from uploaded documents for AI processing
+- [HTTP Request](https://docs.dify.ai/en/use-dify/nodes/http-request.md): Connect to external APIs and web services
+- [If-Else](https://docs.dify.ai/en/use-dify/nodes/ifelse.md): Add conditional logic and branching to workflows
+- [Iteration](https://docs.dify.ai/en/use-dify/nodes/iteration.md): Process arrays by applying workflows to each element
+- [Knowledge Retrieval](https://docs.dify.ai/en/use-dify/nodes/knowledge-retrieval.md)
+- [List Operator](https://docs.dify.ai/en/use-dify/nodes/list-operator.md): Filter, sort, and select elements from arrays
+- [LLM](https://docs.dify.ai/en/use-dify/nodes/llm.md): Invoke language models for text generation and analysis
+- [Loop](https://docs.dify.ai/en/use-dify/nodes/loop.md): Execute repetitive workflows with progressive refinement
+- [Output](https://docs.dify.ai/en/use-dify/nodes/output.md): Define workflow outputs and termination points
+- [Parameter Extractor](https://docs.dify.ai/en/use-dify/nodes/parameter-extractor.md): Convert natural language to structured data using LLM intelligence
+- [Question Classifier](https://docs.dify.ai/en/use-dify/nodes/question-classifier.md): Intelligently categorize user input to route workflow paths
+- [Template](https://docs.dify.ai/en/use-dify/nodes/template.md): Transform and format data using Jinja2 templating
+- [Tools](https://docs.dify.ai/en/use-dify/nodes/tools.md): Connect to external services and APIs with pre-built integrations
+- [Trigger](https://docs.dify.ai/en/use-dify/nodes/trigger/overview.md)
+- [Plugin Trigger](https://docs.dify.ai/en/use-dify/nodes/trigger/plugin-trigger.md)
+- [Schedule Trigger](https://docs.dify.ai/en/use-dify/nodes/trigger/schedule-trigger.md)
+- [Webhook Trigger](https://docs.dify.ai/en/use-dify/nodes/trigger/webhook-trigger.md)
+- [User Input](https://docs.dify.ai/en/use-dify/nodes/user-input.md): Collects user inputs to start workflow and chatflow applications
+- [Variable Aggregator](https://docs.dify.ai/en/use-dify/nodes/variable-aggregator.md): Combine variables from different workflow branches into unified outputs
+- [Variable Assigner](https://docs.dify.ai/en/use-dify/nodes/variable-assigner.md): Manage persistent conversation variables in chatflow applications
+- [Overview](https://docs.dify.ai/en/use-dify/publish/README.md): Get your Dify applications into users' hands with web apps, APIs, embeds, and integrations
+- [API](https://docs.dify.ai/en/use-dify/publish/developing-with-apis.md): Integrate your Dify workflows anywhere
+- [MCP Server](https://docs.dify.ai/en/use-dify/publish/publish-mcp.md): Expose your Dify applications as MCP servers for integration with Claude Desktop, Cursor, and other AI development tools
+- [Chat Web Apps](https://docs.dify.ai/en/use-dify/publish/webapp/chatflow-webapp.md): Turn your chatflow into a fully-featured conversation interface with persistent history and interactive features
+- [Embedding Your Web App](https://docs.dify.ai/en/use-dify/publish/webapp/embedding-in-websites.md): Deploy your published web app on any website through iframes, chat widgets, or custom integrations
+- [Access Control](https://docs.dify.ai/en/use-dify/publish/webapp/web-app-access.md)
+- [Settings](https://docs.dify.ai/en/use-dify/publish/webapp/web-app-settings.md): Configure branding, basic access controls, and user experience settings for your published web applications
+- [Workflow Web Apps](https://docs.dify.ai/en/use-dify/publish/webapp/workflow-webapp.md): Turn your workflows into powerful web applications with batch processing, result management, and streamlined user experiences
+- [Article Reader Using File Upload](https://docs.dify.ai/en/use-dify/tutorials/article-reader.md)
+- [AI Image Generation App](https://docs.dify.ai/en/use-dify/tutorials/build-ai-image-generation-app.md)
+- [Customer Service Bot With Knowledge Base](https://docs.dify.ai/en/use-dify/tutorials/customer-service-bot.md)
+- [Simple Chatbot](https://docs.dify.ai/en/use-dify/tutorials/simple-chatbot.md): Hello World
+- [Twitter Account Analyzer](https://docs.dify.ai/en/use-dify/tutorials/twitter-chatflow.md)
+- [Manage Apps](https://docs.dify.ai/en/use-dify/workspace/app-management.md): Organize, maintain, and share your AI applications with powerful management tools and best practices
+- [Model Providers](https://docs.dify.ai/en/use-dify/workspace/model-providers.md): Configure AI model access for your workspace—the foundation that powers all your applications
+- [Personal Settings](https://docs.dify.ai/en/use-dify/workspace/personal-account-management.md): Manage your profile and preferences across all workspaces
+- [Plugins](https://docs.dify.ai/en/use-dify/workspace/plugins.md): Extend Dify with custom models, tools, and integrations through modular components
+- [Overview](https://docs.dify.ai/en/use-dify/workspace/readme.md): Workspaces are the foundational organizational unit in Dify—everything your team builds, configures, and manages exists within a workspace
+- [Billing](https://docs.dify.ai/en/use-dify/workspace/subscription-management.md): Manage workspace subscriptions and billing to control team size and feature access
+- [Manage Members](https://docs.dify.ai/en/use-dify/workspace/team-members-management.md): Manage workspace members, roles, and permissions to build effective AI teams
